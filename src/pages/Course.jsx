@@ -8,7 +8,7 @@ import { FaBook, FaCertificate, FaChartLine, FaClock, FaDownload, FaKey, FaMobil
 import CourseContent from "../components/organism/CourseContent";
 import ReviewSection from "../components/organism/ReviewSection";
 import { Link } from "react-router-dom";
-import RenderStars from "../components/atoms/renderStars";
+import RenderStars from "../components/atoms/RenderStars";
 const Course = () => {
   return (
     <div className="bg-[#FAFAFA] mt-20 ">
