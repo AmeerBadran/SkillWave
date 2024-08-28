@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { MdHeartBroken, MdOutlineMenuBook, MdTimer } from "react-icons/md";
-import RenderStars from "../atoms/renderStars";
+import RenderStars from "../atoms/RenderStars";
 import { FaEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
