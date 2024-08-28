@@ -1,7 +1,6 @@
 
 import { MdOutlineFavoriteBorder, MdOutlineMenuBook, MdTimer } from "react-icons/md";
 import user1 from "../assets/images/user1.jpg"
-import RenderStars from "../components/atoms/renderStars";
 import course from "../assets/images/course-20-768x512.jpg"
 import { FaPeopleGroup } from "react-icons/fa6";
 import { PiVideo } from "react-icons/pi";
@@ -9,6 +8,7 @@ import { FaBook, FaCertificate, FaChartLine, FaClock, FaDownload, FaKey, FaMobil
 import CourseContent from "../components/organism/CourseContent";
 import ReviewSection from "../components/organism/ReviewSection";
 import { Link } from "react-router-dom";
+import RenderStars from "../components/atoms/renderStars";
 const Course = () => {
   return (
     <div className="bg-[#FAFAFA] mt-20 ">
