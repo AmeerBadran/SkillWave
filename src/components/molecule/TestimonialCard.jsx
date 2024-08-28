@@ -2,7 +2,7 @@
 
 /* eslint-disable react/prop-types */
 
-import RenderStars from "../atoms/renderStars";
+import RenderStars from "../atoms/RenderStars";
 
 const TestimonialCard = ({ image, name, title, review, rating }) => {
   return (

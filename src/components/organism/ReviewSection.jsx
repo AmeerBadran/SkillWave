@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import RenderStars from '../atoms/renderStars';
+import RenderStars from '../atoms/RenderStars';
 import user1 from "../../assets/images/user1.jpg"
 const reviews = [
   {
