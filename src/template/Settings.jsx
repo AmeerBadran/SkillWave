@@ -6,7 +6,7 @@ export default function Settings() {
   const [activeTab, setActiveTab] = useState('editProfile');
 
   return (
-    <div className="p-6 mx-auto bg-white rounded-lg border col-span-3 w-full ml-6 space-y-6">
+    <div className="p-6 mx-auto bg-white rounded-lg border col-span-3 w-full lg:ml-6 space-y-6">
       <h1 className="text-3xl font-bold mb-6">Settings</h1>
       <div className="flex space-x-4 mb-6">
         <button

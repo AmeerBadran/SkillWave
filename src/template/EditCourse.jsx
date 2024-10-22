@@ -90,7 +90,7 @@ const EditCourse = () => {
   };
 
   return (
-    <div className="col-span-3 w-full mx-auto p-6 bg-white rounded-lg ml-6 border">
+    <div className="col-span-3 w-full mx-auto p-6 bg-white rounded-lg lg:ml-6 border">
       <form onSubmit={formik.handleSubmit} className="w-full mx-auto">
         {step === 1 && (
           <div>

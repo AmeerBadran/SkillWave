@@ -21,11 +21,11 @@ export default function Wishlist() {
   };
 
   return (
-    <div className="col-span-3 w-full mx-auto ml-6 bg-white rounded-lg mb-20">
+    <div className="col-span-3 w-full mx-auto lg:ml-6 bg-white rounded-lg mb-20">
       <div className='p-6 border rounded-t-lg'>
         <h1 className='text-2xl font-semibold text-blue-900 '>Wish List</h1>
       </div>
-      <div className='p-6 space-y-6'>
+      <div className='md:p-6 py-6 space-y-6'>
         {selectedCourses.map(course => (
           <DashboardCourseCard
             key={course.id}

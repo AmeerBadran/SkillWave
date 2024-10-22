@@ -9,7 +9,7 @@ import { RiGraduationCapFill } from "react-icons/ri";
 export default function Profile() {
   const location = useLocation();
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 min-h-screen">
       <PageHeader
         title="My Profile"
         breadcrumbText="Profile"
@@ -20,7 +20,7 @@ export default function Profile() {
         arrowColor="text-base-color"
         customTitleClasses="text-5xl 2xmobile:text-7xl"
       />
-      <div className="max-w-[1300px] mx-auto mb-24 grid grid-cols-4">
+      <div className="max-w-[1300px] mx-auto grid grid-cols-1 gap-0 gap-y-6 lg:gap-6 lg:grid-cols-4 py-20 px-5">
         <div className=" space-y-6">
           <div className="w-full border pb-4 rounded-md bg-white">
             <div className="h-28 bg-base-color bg-opacity-90 rounded-t-md flex justify-center items-end">

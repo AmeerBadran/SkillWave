@@ -7,9 +7,10 @@ import { Link } from "react-router-dom";
 
 const DashboardCourseCard = ({ title, lessons, duration, price, oldPrice, rating, reviews, instructor, courseImage, avatar, whishList, editCourse = false }) => {
   return (
-    <div className=" p-6 mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
-      <div className="flex ">
-        <div className="w-1/3 relative overflow-hidden rounded-lg">
+    <div className=" md:p-6 p-3 mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+      <div className="md:flex ">
+        <div className="md:w-1/3 relative overflow-hidden rounded-lg">
+
           <img
             src={courseImage}
             alt="Course"
@@ -20,8 +21,9 @@ const DashboardCourseCard = ({ title, lessons, duration, price, oldPrice, rating
             <span className="text-gray-500 line-through ml-2">{oldPrice}</span>
           </div>
         </div>
-        <div className="w-2/3 p-4">
-          <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
+        <div className="md:w-2/3 p-4">
+          <h3 className=" text-lg font-semibold text-gray-800">{title}</h3>
+
           <div className="flex items-center mt-2 text-gray-500">
             <span className="mr-4 flex gap-1"><MdOutlineMenuBook className="text-orange-500 text-xl" /> {lessons}</span>
             <span className="flex gap-1"><MdTimer className="text-orange-500 text-xl" /> {duration}</span>
@@ -44,12 +46,12 @@ const DashboardCourseCard = ({ title, lessons, duration, price, oldPrice, rating
         </div>
       </div>
       {whishList && (
-        <button className="absolute top-10 right-6 rounded-full">
+        <button className="absolute top-6 md:top-10 right-6 p-2 rounded-md bg-white bg-opacity-80 md:p-0 md:bg-opacity-0">
           <MdHeartBroken className="hover:text-base-color text-2xl transition-all duration-300" />
         </button>
       )}
       {editCourse && (
-        <Link to='editCourse' className="absolute top-10 right-6 rounded-full">
+        <Link to='editCourse' className="absolute top-6 md:top-10 right-6 p-2 rounded-md bg-white bg-opacity-80 md:p-0 md:bg-opacity-0">
           <FaEdit className="hover:text-base-color text-2xl transition-all duration-300" />
         </Link>
       )}
